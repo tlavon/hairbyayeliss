@@ -1,0 +1,8 @@
+
+<div class="containter" *ngIf="!appRules">
+  <div class="layer">
+    <button (click)="onClickMe()" class="enter-button" type="button" name="button">Enter</button>
+  </div>
+  <h1 class="title">Hair by Ayeliss</h1>
+</div>
+<app-rules *ngIf="appRules"></app-rules>
